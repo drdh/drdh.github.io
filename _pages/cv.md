@@ -21,7 +21,16 @@ Education
 
 Research experience
 ======
+- RL on ROS Simulation Environment (2019)
 
+- Research on RL Framework (2018)
+
+- Knowledge Graph on Intelligent Healthcare (2018)
+ 
+- Massive Small Files Prefetch Based on Machine Learning (2018)
+ 
+- Weibo Influence Factors (2017)
+ 
 
 Skills
 ======
