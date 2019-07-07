@@ -83,11 +83,11 @@ author:
   name             : "drdh"
   avatar           : "drdh.jpg"
   bio              : "Undergraduate of USTC, Interested in Reinforcement Learning"
-  location         : "USTC, Hefei, Anhui, China"
+  location         : "USTC, Hefei, China"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : #"http://yourfullgooglescholarurl.com"
-  email            :  "drdh[AT]email.ustc.edu.cn"
+  email            :  "drdh@email.ustc.edu.cn"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              : "https://drdh.gitbook.io/rl"
   bitbucket        :
