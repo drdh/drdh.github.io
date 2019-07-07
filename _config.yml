@@ -87,9 +87,9 @@ author:
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : #"http://yourfullgooglescholarurl.com"
-  email            :  "drdh@email.ustc.edu.cn"
+  email            :  "drdh@mail.ustc.edu.cn"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
-  uri              : "https://drdh.gitbook.io/rl"
+  uri              : #"https://drdh.gitbook.io/rl"
   bitbucket        :
   codepen          :
   dribbble         :
