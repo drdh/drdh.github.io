@@ -5,12 +5,20 @@
     <link>https://drdh.github.io/</link>
       <atom:link href="https://drdh.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>drdh</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 31 May 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://drdh.github.io/media/icon_hu613d6f05da3a2c2ad3cbf1516b22b6a1_100098_512x512_fill_lanczos_center_3.png</url>
       <title>drdh</title>
       <link>https://drdh.github.io/</link>
     </image>
+    
+    <item>
+      <title>Leveraging Hyperbolic Embeddings for Coarse-to-Fine Robot Design</title>
+      <link>https://drdh.github.io/publication/2024-herd/</link>
+      <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://drdh.github.io/publication/2024-herd/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Symmetry-Aware Robot Design with Structured Subgroups</title>
@@ -25,6 +33,14 @@
       <link>https://drdh.github.io/publication/2022-solar/</link>
       <pubDate>Thu, 27 Oct 2022 00:00:00 +0000</pubDate>
       <guid>https://drdh.github.io/publication/2022-solar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Birds of a feather flock together: A close look at cooperation emergence via multi-agent rl</title>
+      <link>https://drdh.github.io/publication/2022-homophily/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://drdh.github.io/publication/2022-homophily/</guid>
       <description></description>
     </item>
     
