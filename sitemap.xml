@@ -2,50 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/publication/2024-herd/</loc>
+    <loc>https://drdh.github.io/publication/2024-lac/</loc>
+    <lastmod>2024-05-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://drdh.github.io/publication-type/paper-conference/</loc>
+    <lastmod>2024-05-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://drdh.github.io/publication_types/</loc>
+    <lastmod>2024-05-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://drdh.github.io/publication/</loc>
+    <lastmod>2024-05-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://drdh.github.io/publication/2024-herd/</loc>
     <lastmod>2024-01-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/publication-type/paper-conference/</loc>
-    <lastmod>2024-01-16T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1313/publication_types/</loc>
-    <lastmod>2024-01-16T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1313/publication/</loc>
-    <lastmod>2024-01-16T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1313/publication/2023-sard/</loc>
+    <loc>https://drdh.github.io/publication/2023-sard/</loc>
     <lastmod>2023-05-31T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/publication/2022-solar/</loc>
+    <loc>https://drdh.github.io/publication/2022-solar/</loc>
     <lastmod>2022-10-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://drdh.github.io/</loc>
     <lastmod>2022-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/publication/2022-homophily/</loc>
+    <loc>https://drdh.github.io/publication/2022-homophily/</loc>
     <lastmod>2021-04-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/publication/2021-dop/</loc>
+    <loc>https://drdh.github.io/publication/2021-dop/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/publication/2020-roma/</loc>
+    <loc>https://drdh.github.io/publication/2020-roma/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://drdh.github.io/categories/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://drdh.github.io/tags/</loc>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>

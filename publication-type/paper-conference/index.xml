@@ -2,61 +2,69 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Paper-Conference | drdh</title>
-    <link>http://localhost:1313/publication-type/paper-conference/</link>
-      <atom:link href="http://localhost:1313/publication-type/paper-conference/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://drdh.github.io/publication-type/paper-conference/</link>
+      <atom:link href="https://drdh.github.io/publication-type/paper-conference/index.xml" rel="self" type="application/rss+xml" />
     <description>Paper-Conference</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 16 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 23 May 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu613d6f05da3a2c2ad3cbf1516b22b6a1_100098_512x512_fill_lanczos_center_3.png</url>
+      <url>https://drdh.github.io/media/icon_hu613d6f05da3a2c2ad3cbf1516b22b6a1_100098_512x512_fill_lanczos_center_3.png</url>
       <title>Paper-Conference</title>
-      <link>http://localhost:1313/publication-type/paper-conference/</link>
+      <link>https://drdh.github.io/publication-type/paper-conference/</link>
     </image>
     
     <item>
+      <title>Implementing Actor-Critic with Large Language Models</title>
+      <link>https://drdh.github.io/publication/2024-lac/</link>
+      <pubDate>Thu, 23 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://drdh.github.io/publication/2024-lac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Leveraging Hyperbolic Embeddings for Coarse-to-Fine Robot Design</title>
-      <link>http://localhost:1313/publication/2024-herd/</link>
+      <link>https://drdh.github.io/publication/2024-herd/</link>
       <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/2024-herd/</guid>
+      <guid>https://drdh.github.io/publication/2024-herd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Symmetry-Aware Robot Design with Structured Subgroups</title>
-      <link>http://localhost:1313/publication/2023-sard/</link>
+      <link>https://drdh.github.io/publication/2023-sard/</link>
       <pubDate>Wed, 31 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/2023-sard/</guid>
+      <guid>https://drdh.github.io/publication/2023-sard/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Low-Rank Modular Reinforcement Learning via Muscle Synergy</title>
-      <link>http://localhost:1313/publication/2022-solar/</link>
+      <link>https://drdh.github.io/publication/2022-solar/</link>
       <pubDate>Thu, 27 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/2022-solar/</guid>
+      <guid>https://drdh.github.io/publication/2022-solar/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Birds of a feather flock together: A close look at cooperation emergence via multi-agent rl</title>
-      <link>http://localhost:1313/publication/2022-homophily/</link>
+      <link>https://drdh.github.io/publication/2022-homophily/</link>
       <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/2022-homophily/</guid>
+      <guid>https://drdh.github.io/publication/2022-homophily/</guid>
       <description></description>
     </item>
     
     <item>
       <title>DOP: Off-Policy Multi-Agent Decomposed Policy Gradients</title>
-      <link>http://localhost:1313/publication/2021-dop/</link>
+      <link>https://drdh.github.io/publication/2021-dop/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/2021-dop/</guid>
+      <guid>https://drdh.github.io/publication/2021-dop/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ROMA: Multi-Agent Reinforcement Learning with Emergent Roles</title>
-      <link>http://localhost:1313/publication/2020-roma/</link>
+      <link>https://drdh.github.io/publication/2020-roma/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/2020-roma/</guid>
+      <guid>https://drdh.github.io/publication/2020-roma/</guid>
       <description></description>
     </item>
     
