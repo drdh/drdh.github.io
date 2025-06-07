@@ -12,8 +12,10 @@ main:
   #   slides: ./assets/pubs/
   #   bibtex: ./assets/pubs/
   #   image: ./assets/pubs/
-  #   # video: ./assets/pubs/
-  #   # notes: Early Accept
+  #   video: ./assets/pubs/
+  #   notes: Early Accept
+  #   highlight: true/false
+
 
   - title: Enhancing Decision-Making of Large Language Models via Actor-Critic
     authors: 
@@ -32,6 +34,7 @@ main:
     image: ./assets/pubs/2025-LAC/picture.png
     # video: ./assets/pubs/2025-LAC/cat4d.mp4
     # notes: Early Accept
+    highlight: true
 
   - title: "Policy-to-Language: Train LLMs to Explain Decisions with Flow-Matching Generated Rewards"
     authors: 
@@ -55,6 +58,7 @@ main:
     image: ./assets/pubs/2025-Policy2Lang/picture.png
     # video: ./assets/pubs/
     # notes: Early Accept
+    highlight: false
   
   - title: "On Diffusion Models for Multi-Agent Partial Observability: Shared Attractors, Error Bounds, and Composite Flow"
     authors: 
@@ -74,6 +78,7 @@ main:
     image: ./assets/pubs/2025-Diffusion/picture.png
     # video: ./assets/pubs/
     # notes: Early Accept
+    highlight: true
 
   - title: Leveraging Hyperbolic Embeddings for Coarse-to-Fine Robot Design
     authors: 
@@ -89,8 +94,9 @@ main:
     slides: ./assets/pubs/2024-HERD/slides.pdf
     bibtex: ./assets/pubs/2024-HERD/cite.txt
     image: ./assets/pubs/2024-HERD/picture.png
-    # video: ./assets/pubs/
+    video: ./assets/pubs/2024-HERD/carrier.mp4
     # notes: Early Accept
+    highlight: true
   
   - title: Symmetry-Aware Robot Design with Structured Subgroups
     authors: 
@@ -107,8 +113,9 @@ main:
     slides: ./assets/pubs/2023-SARD/slides.pdf
     bibtex: ./assets/pubs/2023-SARD/cite.txt
     image: ./assets/pubs/2023-SARD/picture.png
-    # video: ./assets/pubs/
+    video: ./assets/pubs/2023-SARD/patrol.mp4
     # notes: Early Accept
+    highlight: true
   
   - title: Low-Rank Modular Reinforcement Learning via Muscle Synergy
     authors: 
@@ -125,8 +132,9 @@ main:
     slides: ./assets/pubs/2022-SOLAR/slides.pdf
     bibtex: ./assets/pubs/2022-SOLAR/cite.txt
     image: ./assets/pubs/2022-SOLAR/picture.png
-    # video: ./assets/pubs/
+    video: ./assets/pubs/2022-SOLAR/humanoid_2d_7_left_arm.mp4
     # notes: Early Accept
+    highlight: true
   
   - title: "Birds of a feather flock together: A close look at cooperation emergence via multi-agent rl"
     authors: 
@@ -146,6 +154,7 @@ main:
     image: ./assets/pubs/2022-HOMOPHILY/picture.png
     # video: ./assets/pubs/
     # notes: Early Accept
+    highlight: false
   
   - title: "DOP: Off-Policy Multi-Agent Decomposed Policy Gradients"
     authors: 
@@ -165,6 +174,7 @@ main:
     image: ./assets/pubs/2021-DOP/picture.png
     # video: ./assets/pubs/
     # notes: Early Accept
+    highlight: false
   
   - title: "ROMA: Multi-Agent Reinforcement Learning with Emergent Roles"
     authors: 
@@ -183,6 +193,7 @@ main:
     image: ./assets/pubs/2020-ROMA/picture.png
     # video: ./assets/pubs/
     # notes: Early Accept
+    highlight: false
   
   # - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
   #   authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)

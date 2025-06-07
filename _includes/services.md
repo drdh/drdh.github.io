@@ -1,6 +1,6 @@
 ## Services
 
-<h4 style="margin:0 10px 0;">Conference Reviewers</h4>
+<h4 style="margin:0 10px 0;">Conference Reviewer</h4>
 
 <ul style="margin:0 0 5px;">
   <li><strong>[2022 - present]</strong> <a href="https://neurips.cc"><autocolor>Annual Conference on Neural Information Processing Systems (NeurIPS)</autocolor></a></li>

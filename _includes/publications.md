@@ -2,14 +2,16 @@
 
 <div class="publications">
 <ol class="bibliography">
-
+<p>
+  Most of my research is about robotics and agents. Some papers are <span class="highlighted">highlighted</span>.
+</p>
 {% for link in site.data.publications.main %}
 
-<li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+<li >
+<div class="pub-row {% if link.highlight %}highlighted{% endif %}">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;width: 60%; height: auto; display: flex; justify-content: center; align-items: center;">
     {% if link.video %} 
-      <video autoplay muted loop playsinline class="teaser img-fluid z-depth-1" style="width: 100%; aspect-ratio: 4/3; object-fit: cover;">
+      <video autoplay muted loop playsinline class="teaser img-fluid z-depth-1" style="width: 100%; height: auto; aspect-ratio: auto; object-fit: cover;">
         <source src="{{ link.video }}" type="video/mp4">
         Your browser does not support the video tag.
       </video>
@@ -17,7 +19,8 @@
         <abbr class="badge">{{ link.conference_short }}</abbr>
       {% endif %}
     {% elsif link.image %} 
-      <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width: 100%; aspect-ratio: 4/3; object-fit: cover;">
+      <!-- <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width: auto; height: 100%; aspect-ratio: auto; object-fit: cover; text-align: center;"> -->
+      <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width: 100%; height: auto; aspect-ratio: auto; object-fit: cover;">
       {% if link.conference_short %} 
         <abbr class="badge">{{ link.conference_short }}</abbr>
       {% endif %}
@@ -64,3 +67,9 @@
 
 </ol>
 </div>
+
+<style>
+  .highlighted {
+      background-color: #ffffe0;
+  }
+</style>
