@@ -32,7 +32,7 @@ main:
     # slides: ./assets/pubs/
     bibtex: ./assets/pubs/2025-LAC/cite.txt
     image: ./assets/pubs/2025-LAC/picture.png
-    # video: ./assets/pubs/2025-LAC/cat4d.mp4
+    video: ./assets/pubs/2025-LAC/video.mp4
     # notes: Early Accept
     highlight: true
 
@@ -76,7 +76,7 @@ main:
     # slides: ./assets/pubs/
     bibtex: ./assets/pubs/2025-Diffusion/cite.txt
     image: ./assets/pubs/2025-Diffusion/picture.png
-    # video: ./assets/pubs/
+    video: ./assets/pubs/2025-Diffusion/video.mp4
     # notes: Early Accept
     highlight: true
 
@@ -94,7 +94,7 @@ main:
     slides: ./assets/pubs/2024-HERD/slides.pdf
     bibtex: ./assets/pubs/2024-HERD/cite.txt
     image: ./assets/pubs/2024-HERD/picture.png
-    video: ./assets/pubs/2024-HERD/carrier.mp4
+    video: ./assets/pubs/2024-HERD/video.mp4
     # notes: Early Accept
     highlight: true
   
@@ -113,7 +113,7 @@ main:
     slides: ./assets/pubs/2023-SARD/slides.pdf
     bibtex: ./assets/pubs/2023-SARD/cite.txt
     image: ./assets/pubs/2023-SARD/picture.png
-    video: ./assets/pubs/2023-SARD/patrol.mp4
+    video: ./assets/pubs/2023-SARD/video.mp4
     # notes: Early Accept
     highlight: true
   
@@ -132,7 +132,7 @@ main:
     slides: ./assets/pubs/2022-SOLAR/slides.pdf
     bibtex: ./assets/pubs/2022-SOLAR/cite.txt
     image: ./assets/pubs/2022-SOLAR/picture.png
-    video: ./assets/pubs/2022-SOLAR/humanoid_2d_7_left_arm.mp4
+    video: ./assets/pubs/2022-SOLAR/video.mp4
     # notes: Early Accept
     highlight: true
   
@@ -152,7 +152,7 @@ main:
     # slides: ./assets/pubs/
     bibtex: ./assets/pubs/2022-HOMOPHILY/cite.txt
     image: ./assets/pubs/2022-HOMOPHILY/picture.png
-    # video: ./assets/pubs/
+    video: ./assets/pubs/2022-HOMOPHILY/video.mp4
     # notes: Early Accept
     highlight: false
   

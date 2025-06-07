@@ -9,7 +9,7 @@
 
 <li >
 <div class="pub-row {% if link.highlight %}highlighted{% endif %}">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;width: 60%; height: auto; display: flex; justify-content: center; align-items: center;">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;width: 80%; height: auto; display: flex; justify-content: center; align-items: center;">
     {% if link.video %} 
       <video autoplay muted loop playsinline class="teaser img-fluid z-depth-1" style="width: 100%; height: auto; aspect-ratio: auto; object-fit: cover;">
         <source src="{{ link.video }}" type="video/mp4">
