@@ -1,0 +1,8 @@
+@inproceedings{
+    dong2024lac,
+    title={Enhancing Decision-Making of Large Language Models via Actor-Critic},
+    author={Heng Dong and Kefei Duan and Chongjie Zhang},
+    booktitle={International Conference on Machine Learning},
+    year={2024},
+    organization={PMLR}
+}

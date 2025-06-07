@@ -1,0 +1,6 @@
+@article{yang2025policy,
+    title={Policy-to-Language: Train LLMs to Explain Decisions with Flow-Matching Generated Rewards},
+    author={Yang, Xinyi and Zeng, Liang and Dong, Heng and Yu, Chao and Wu, Xiaoran and Yang, Huazhong and Wang, Yu and Tambe, Milind and Wang, Tonghan},
+    journal={arXiv preprint arXiv:2502.12530},
+    year={2025}
+}

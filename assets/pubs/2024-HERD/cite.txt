@@ -1,0 +1,8 @@
+@inproceedings{
+    dong2024herd,
+    title={Leveraging Hyperbolic Embeddings for Coarse-to-Fine Robot Design},
+    author={Heng Dong and Junyu Zhang and Chongjie Zhang},
+    booktitle={The Twelfth International Conference on Learning Representations},
+    year={2024},
+    url={https://openreview.net/pdf?id=q9jQPA6zPK}
+}

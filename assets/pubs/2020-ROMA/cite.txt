@@ -1,0 +1,8 @@
+@inproceedings{wang2020roma,
+    title={ROMA: Multi-Agent Reinforcement Learning with Emergent Roles},
+    author={Wang, Tonghan and Dong, Heng and Lesser, Victor and Zhang, Chongjie},
+    booktitle={International Conference on Machine Learning},
+    pages={9876--9886},
+    year={2020},
+    organization={PMLR}
+}

@@ -1,0 +1,8 @@
+@inproceedings{
+    dong2022synergy,
+    title={Low-Rank Modular Reinforcement Learning via Muscle Synergy},
+    author={Heng Dong and Tonghan Wang and Chongjie Zhang},
+    booktitle={Thirty-Sixth Conference on Neural Information Processing Systems},
+    year={2022},
+    url={https://openreview.net/forum?id=zYc5FSxL6ar}
+}

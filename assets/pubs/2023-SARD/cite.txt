@@ -1,0 +1,8 @@
+@inproceedings{
+    dong2023sard,
+    title={Symmetry-Aware Robot Design with Structured Subgroups},
+    author={Heng Dong and Junyu Zhang and Tonghan Wang and Chongjie Zhang},
+    booktitle={Proceedings of the 40th International Conference on Machine Learning},
+    year={2023},
+    url={https://openreview.net/forum?id=jeHP6aBCBu}
+}

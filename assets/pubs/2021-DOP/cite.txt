@@ -1,0 +1,8 @@
+@inproceedings{
+    wang2021dop,
+    title={{\{}DOP{\}}: Off-Policy Multi-Agent Decomposed Policy Gradients},
+    author={Yihan Wang and Beining Han and Tonghan Wang and Heng Dong and Chongjie Zhang},
+    booktitle={International Conference on Learning Representations},
+    year={2021},
+    url={https://openreview.net/forum?id=6FqKiVAdI3Y}
+}

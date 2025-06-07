@@ -1,0 +1,206 @@
+main:
+
+  # - title: 
+  #   authors: 
+      
+  #   conference_short: 
+  #   tldr: 
+  #   pdf: 
+  #   code: 
+  #   page: 
+  #   poster: ./assets/pubs/
+  #   slides: ./assets/pubs/
+  #   bibtex: ./assets/pubs/
+  #   image: ./assets/pubs/
+  #   # video: ./assets/pubs/
+  #   # notes: Early Accept
+
+  - title: Enhancing Decision-Making of Large Language Models via Actor-Critic
+    authors: 
+      <strong>Heng Dong*</strong>, 
+      <a href="https://duoduo-la.github.io">Kefei Duan*</a>,
+      <a href="https://engineering.washu.edu/faculty/Chongjie-Zhang.html">Chongjie Zhang</a> 
+    conference_short: ICML 2025
+    # conference: Forty-Second International Conference on Machine Learning <strong>(ICML)</strong>, 2025.
+    tldr: We propose a novel LLM-based Actor-Critic framework that enhances LLMs' decision-making through long-term action evaluations and efficient policy improvements.
+    pdf: ./assets/pubs/2025-LAC/paper.pdf
+    code: https://github.com/drdh/lac
+    page: https://sites.google.com/view/lang-ac
+    # poster: ./assets/pubs/
+    # slides: ./assets/pubs/
+    bibtex: ./assets/pubs/2025-LAC/cite.txt
+    image: ./assets/pubs/2025-LAC/picture.png
+    # video: ./assets/pubs/2025-LAC/cat4d.mp4
+    # notes: Early Accept
+
+  - title: "Policy-to-Language: Train LLMs to Explain Decisions with Flow-Matching Generated Rewards"
+    authors: 
+      Xinyi Yang,
+      Liang Zeng,
+      <strong>Heng Dong</strong>, 
+      Chao Yu,
+      Xiaoran Wu,
+      <a href="https://www.ee.tsinghua.edu.cn/en/info/1067/1292.htm">Huazhong Yang</a>,
+      Yu Wang,
+      <a href="https://teamcore.seas.harvard.edu/tambe/">Milind Tambe</a>
+      <a href="https://tonghanwang.github.io">Tonghan Wang</a>
+    conference_short: arXiv 2025
+    tldr: We train LLMs to generate better agent explanations using RL with feedback from generative models, outperforming standard RLHF methods.
+    pdf: https://arxiv.org/pdf/2502.12530
+    # code: 
+    # page: 
+    # poster: ./assets/pubs/
+    # slides: ./assets/pubs/
+    bibtex: ./assets/pubs/2025-Policy2Lang/cite.txt
+    image: ./assets/pubs/2025-Policy2Lang/picture.png
+    # video: ./assets/pubs/
+    # notes: Early Accept
+  
+  - title: "On Diffusion Models for Multi-Agent Partial Observability: Shared Attractors, Error Bounds, and Composite Flow"
+    authors: 
+      <a href="https://tonghanwang.github.io">Tonghan Wang*</a>, 
+      <strong>Heng Dong*</strong>, 
+      <a href="https://yanchenjiang.github.io/">Yanchen Jiang</a>,
+      <a href="https://parkes.seas.harvard.edu">David C. Parkes</a>,
+      <a href="https://teamcore.seas.harvard.edu/tambe/">Milind Tambe</a>
+    conference_short: AAMAS 2025
+    tldr: We show that diffusion models can reconstruct global states in decentralized partially observable multiagent systems, with approximation errors leading to deviations that can be bounded for convergence to the true state.
+    pdf: https://arxiv.org/pdf/2410.13953
+    # code: 
+    # page: 
+    # poster: ./assets/pubs/
+    # slides: ./assets/pubs/
+    bibtex: ./assets/pubs/2025-Diffusion/cite.txt
+    image: ./assets/pubs/2025-Diffusion/picture.png
+    # video: ./assets/pubs/
+    # notes: Early Accept
+
+  - title: Leveraging Hyperbolic Embeddings for Coarse-to-Fine Robot Design
+    authors: 
+      <strong>Heng Dong*</strong>, 
+      <a href="https://jyzhang1208.github.io">Junyu Zhang*</a>,
+      <a href="https://engineering.washu.edu/faculty/Chongjie-Zhang.html">Chongjie Zhang</a> 
+    conference_short: ICLR 2024
+    tldr: We propose to design multi-cellular robots in a coarse-to-fine manner and leverage hyperbolic embeddings for implementation.
+    pdf: https://openreview.net/pdf?id=q9jQPA6zPK
+    code: https://github.com/drdh/HERD
+    page: https://sites.google.com/view/hyperbolic-robot-design
+    poster: ./assets/pubs/2024-HERD/poster.pdf
+    slides: ./assets/pubs/2024-HERD/slides.pdf
+    bibtex: ./assets/pubs/2024-HERD/cite.txt
+    image: ./assets/pubs/2024-HERD/picture.png
+    # video: ./assets/pubs/
+    # notes: Early Accept
+  
+  - title: Symmetry-Aware Robot Design with Structured Subgroups
+    authors: 
+      <strong>Heng Dong</strong>, 
+      <a href="https://jyzhang1208.github.io">Junyu Zhang</a>,
+      <a href="https://tonghanwang.github.io">Tonghan Wang</a>, 
+      <a href="https://engineering.washu.edu/faculty/Chongjie-Zhang.html">Chongjie Zhang</a> 
+    conference_short: ICML 2023
+    tldr: We exploit the structure of the design space in robot design problems with symmetry characteristics and generate robots with high performance more efficiently.
+    pdf: https://openreview.net/pdf?id=jeHP6aBCBu
+    code: https://github.com/drdh/SARD
+    page: https://sites.google.com/view/robot-design
+    poster: ./assets/pubs/2023-SARD/poster.pdf
+    slides: ./assets/pubs/2023-SARD/slides.pdf
+    bibtex: ./assets/pubs/2023-SARD/cite.txt
+    image: ./assets/pubs/2023-SARD/picture.png
+    # video: ./assets/pubs/
+    # notes: Early Accept
+  
+  - title: Low-Rank Modular Reinforcement Learning via Muscle Synergy
+    authors: 
+      <strong>Heng Dong*</strong>, 
+      <a href="https://tonghanwang.github.io">Tonghan Wang*</a>, 
+      <a href="https://liu-jiayuan.github.io">Jiayuan Liu</a>, 
+      <a href="https://engineering.washu.edu/faculty/Chongjie-Zhang.html">Chongjie Zhang</a> 
+    conference_short: NeurIPS 2022
+    tldr: A muscle synergy inspired RL framework that groups actuators into synchronised modules for efficient control of high-DoF robots, demonstrating superior efficiency and generalizability on complex morphologies like Humanoids++ and UNIMALs.
+    pdf: https://openreview.net/pdf?id=zYc5FSxL6ar
+    code: https://github.com/drdh/Synergy-RL
+    page: https://sites.google.com/view/synergy-rl
+    poster: ./assets/pubs/2022-SOLAR/poster.pdf
+    slides: ./assets/pubs/2022-SOLAR/slides.pdf
+    bibtex: ./assets/pubs/2022-SOLAR/cite.txt
+    image: ./assets/pubs/2022-SOLAR/picture.png
+    # video: ./assets/pubs/
+    # notes: Early Accept
+  
+  - title: "Birds of a feather flock together: A close look at cooperation emergence via multi-agent rl"
+    authors: 
+      <strong>Heng Dong*</strong>,
+      <a href="https://tonghanwang.github.io">Tonghan Wang*</a>, 
+      <a href="https://liu-jiayuan.github.io">Jiayuan Liu</a>, 
+      <a href="https://glaciohound.github.io/">Chi Han</a>,
+      <a href="https://engineering.washu.edu/faculty/Chongjie-Zhang.html">Chongjie Zhang</a> 
+    conference_short: arXiv 2021
+    tldr: We identify that fragile cooperation in sequential social dilemmas stems from second-order conflicts in incentive mechanisms, and propose a homophily-based learning framework that achieves stable cooperation in public goods and tragedy of the commons scenarios.
+    pdf: https://arxiv.org/pdf/2104.11455.pdf
+    code: https://github.com/drdh/Homophily-MARL
+    page: https://sites.google.com/view/homophily
+    # poster: ./assets/pubs/
+    # slides: ./assets/pubs/
+    bibtex: ./assets/pubs/2022-HOMOPHILY/cite.txt
+    image: ./assets/pubs/2022-HOMOPHILY/picture.png
+    # video: ./assets/pubs/
+    # notes: Early Accept
+  
+  - title: "DOP: Off-Policy Multi-Agent Decomposed Policy Gradients"
+    authors: 
+      <a href="https://yihanwang617.github.io">Yihan Wang*</a>, 
+      <a href="https://beininghan.github.io/">Beining Han*</a>,
+      <a href="https://tonghanwang.github.io">Tonghan Wang*</a>, 
+      <strong>Heng Dong</strong>, 
+      <a href="https://engineering.washu.edu/faculty/Chongjie-Zhang.html">Chongjie Zhang</a> 
+    conference_short: ICLR 2021
+    tldr: A decomposed policy gradient method that outperforms state-of-the-art multi-agent RL algorithms by enabling efficient off-policy learning and better credit assignment.
+    pdf: https://openreview.net/pdf?id=6FqKiVAdI3Y
+    code: https://github.com/TonghanWang/DOP
+    page: https://sites.google.com/view/dop-mapg
+    # poster: ./assets/pubs/
+    # slides: ./assets/pubs/
+    bibtex: ./assets/pubs/2021-DOP/cite.txt
+    image: ./assets/pubs/2021-DOP/picture.png
+    # video: ./assets/pubs/
+    # notes: Early Accept
+  
+  - title: "ROMA: Multi-Agent Reinforcement Learning with Emergent Roles"
+    authors: 
+      <a href="https://tonghanwang.github.io">Tonghan Wang</a>, 
+      <strong>Heng Dong</strong>, 
+      <a href="https://www.cics.umass.edu/about/directory/victor-lesser">Victor Lesser</a>, 
+      <a href="https://engineering.washu.edu/faculty/Chongjie-Zhang.html">Chongjie Zhang</a> 
+    conference_short: ICML 2020
+    tldr: A role-based MARL framework where agents autonomously learn specialized roles, improving performance on StarCraft II micromanagement.
+    pdf: https://arxiv.org/abs/2002.04677
+    code: https://github.com/TonghanWang/ROMA
+    page: https://sites.google.com/view/romarl
+    # poster: ./assets/pubs/
+    # slides: ./assets/pubs/
+    bibtex: ./assets/pubs/2020-ROMA/cite.txt
+    image: ./assets/pubs/2020-ROMA/picture.png
+    # video: ./assets/pubs/
+    # notes: Early Accept
+  
+  # - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
+  #   authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
+  #   conference_short: MICCAI
+  #   conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
+  #   pdf: https://arxiv.org/pdf/2306.00988.pdf
+  #   code: https://github.com/MrGiovanni/ContinualLearning
+  #   bibtex: https://bib.yliu.me/MICCAI23.txt
+  #   image: ./assets/img/teaser_example_2.png
+  #   notes: Early Accept
+
+  # - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
+  #   authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
+  #   conference_short: CVPR
+  #   conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
+  #   pdf: https://arxiv.org/pdf/2002.10211.pdf
+  #   code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
+  #   page: https://class-il.mpi-inf.mpg.de/mnemonics/
+  #   bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+  #   notes: Oral Presentation
+  #   image: ./assets/img/teaser_example.png

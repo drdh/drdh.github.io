@@ -1,0 +1,6 @@
+@article{dong2021homophily,
+    title={Birds of a feather flock together: A close look at cooperation emergence via multi-agent rl},
+    author={Dong, Heng and Wang, Tonghan and Liu, Jiayuan and Han, Chi and Zhang, Chongjie},
+    journal={arXiv preprint arXiv:2104.11455},
+    year={2021}
+}

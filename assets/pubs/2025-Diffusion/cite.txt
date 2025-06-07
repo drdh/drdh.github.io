@@ -1,0 +1,6 @@
+@article{wang2024diffusion,
+    title={On Diffusion Models for Multi-Agent Partial Observability: Shared Attractors, Error Bounds, and Composite Flow},
+    author={Wang, Tonghan and Dong, Heng and Jiang, Yanchen and Parkes, David C and Tambe, Milind},
+    journal={arXiv preprint arXiv:2410.13953},
+    year={2024}
+}
