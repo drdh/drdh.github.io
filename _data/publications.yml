@@ -25,7 +25,7 @@ main:
     conference_short: ICML 2025
     # conference: Forty-Second International Conference on Machine Learning <strong>(ICML)</strong>, 2025.
     tldr: We propose a novel LLM-based Actor-Critic framework that enhances LLMs' decision-making through long-term action evaluations and efficient policy improvements.
-    pdf: ./assets/pubs/2025-LAC/paper.pdf
+    pdf: https://arxiv.org/pdf/2506.06376
     code: https://github.com/drdh/lac
     page: https://sites.google.com/view/lang-ac
     # poster: ./assets/pubs/
