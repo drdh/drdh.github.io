@@ -1,14 +1,18 @@
 # Basic Information 
 title: Heng Dong
-position: Ph.D. Student
-affiliation: Tsinghua University
+position: Researcher
+affiliation: ByteDance Research
 email: drdhxi (at) gmail.com
+# position: Ph.D. Student
+# affiliation: Tsinghua University
+# email: drdhxi (at) gmail.com
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: Heng Dong, Ph.D. Student, Tsinghua University, Computer Science, Artificial Intelligence, Reinforcement Learning
-description: Heng Dong​​ is a Ph.D. student at the ​Institute for Interdisciplinary Information Sciences (IIIS), Tsinghua University, advised by ​​Prof. Chongjie Zhang​​ and ​​Prof. Yi Wu​, under the leadership of Turing Award laureate ​​Prof. Andrew Yao​. His research aims to develop ​superhuman AI agents​ through learning from interactions (e.g., RL, robot control & design, multi-agent) and modern models (e.g., LLMs & VLMs, diffusion models, flow Models). He received his ​B.S. in Computer Science​ from the ​University of Science and Technology of China (USTC)​​ in 2020 and began his Ph.D. at Tsinghua University the same year. 
+keywords: Heng Dong, ByteDance Researcher, Ph.D., Tsinghua University, Computer Science, Artificial Intelligence, Reinforcement Learning, Robotics, LLMs, VLMs, Diffusion Models
+description: Heng Dong is a researcher at ByteDance, working on embodied intelligence and multi-modal foundation models for robotics. He aims to build superhuman AI agents by combining learning from interaction—such as reinforcement learning, robot control and design, and multi-agent systems—with modern AI models, including large language models (LLMs), vision-language models (VLMs), diffusion models, and flow-based models. He received his Ph.D. in Computer Science from the Institute for Interdisciplinary Information Sciences (IIIS), Tsinghua University, under the supervision of Prof. Chongjie Zhang and Prof. Yi Wu, and earned his B.S. from the University of Science and Technology of China (USTC) in 2020.
 canonical: https://drdh.cc
+# description: Heng Dong​​ is a Ph.D. student at the ​Institute for Interdisciplinary Information Sciences (IIIS), Tsinghua University, advised by ​​Prof. Chongjie Zhang​​ and ​​Prof. Yi Wu​, under the leadership of Turing Award laureate ​​Prof. Andrew Yao​. His research aims to develop ​superhuman AI agents​ through learning from interactions (e.g., RL, robot control & design, multi-agent) and modern models (e.g., LLMs & VLMs, diffusion models, flow Models). He received his ​B.S. in Computer Science​ from the ​University of Science and Technology of China (USTC)​​ in 2020 and began his Ph.D. at Tsinghua University the same year. 
 
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
