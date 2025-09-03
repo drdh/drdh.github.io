@@ -16,6 +16,21 @@ main:
   #   notes: Early Accept
   #   highlight: true/false
 
+  - title: "Robix: A Unified Model for Robot Interaction, Reasoning and Planning"
+    authors: Huang Fang*, Mengxi Zhang*, <strong>Heng Dong*</strong>,  Wei Li*, Zixuan Wang, Qifeng Zhang, Xueyun Tian, Yucheng Hu, Hang Li
+    conference_short: Tech Report 2025
+    tldr: Robix is a unified robot brain that integrates reasoning, planning, and human interaction within a single vision-language architecture, outperforming GPT-4o and Gemini-2.5-pro through its novel chain-of-thought reasoning and three-stage training strategy.
+    pdf: https://arxiv.org/pdf/2509.01106
+    # code: 
+    page: https://robix-seed.github.io/robix/
+    # poster: ./assets/pubs/
+    # slides: ./assets/pubs/
+    bibtex: ./assets/pubs/2025-Robix/cite.txt
+    image: ./assets/pubs/2025-Robix/picture.png
+    video: ./assets/pubs/2025-Robix/video.mp4
+    # notes: Early Accept
+    highlight: true
+
 
   - title: Enhancing Decision-Making of Large Language Models via Actor-Critic
     authors: 

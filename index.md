@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am a researcher at <a href="https://seed.bytedance.com/en/research">ByteDance Research</a> in Beijing, where I work on embodied intelligence and multi-modal foundation models for robotics.
+I am a researcher at <a href="https://seed.bytedance.com/en/research">ByteDance Seed</a> in Beijing, where I work on embodied intelligence and multi-modal foundation models for robotics.
 
 I received my PhD from the [Institute for Interdisciplinary Information Sciences (IIIS)](https://iiis.tsinghua.edu.cn/) at Tsinghua University, under the supervision of [Prof. Chongjie Zhang](https://engineering.washu.edu/faculty/Chongjie-Zhang.html) and [Prof. Yi Wu](https://jxwuyi.weebly.com). This institute is led by Turing Award laureate [Prof. Andrew Yao](https://iiis.tsinghua.edu.cn/yao/).
 
@@ -25,7 +25,7 @@ I've received the <a href="https://www.thecvf.com/?page_id=413#YRA">PAMI Young R
 - **Modern Models:** LLMs & VLMs, Diffusion Models, Flow Models
 
 ## Experience
-- **[Jun. 2025 - Present]** Researcher at ByteDance Research
+- **[Jun. 2025 - Present]** Researcher at ByteDance Seed
 - **[Sep. 2020 - Jun. 2025]** Ph.D. in Artificial Intelligence, [Tsinghua University](https://www.tsinghua.edu.cn/en/)
 - **[Sep. 2016 - Jun. 2020]** B.S. in Computer Science, [University of Science and Technology of China](https://en.ustc.edu.cn/)
 

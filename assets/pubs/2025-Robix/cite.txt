@@ -1,0 +1,6 @@
+@article{fang2025robix,
+    title = {Robix: A Unified Model for Robot Interaction, Reasoning and Planning},
+    author = {Huang Fang, Mengxi Zhang, Heng Dong, Wei Li, Zixuan Wang, Qifeng Zhang, Xueyun Tian, Yucheng Hu, Hang Li},
+    journal = {arXiv preprint arXiv:2509.01106},
+    year = {2025}
+}
