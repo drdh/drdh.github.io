@@ -31,6 +31,7 @@ I've received the <a href="https://www.thecvf.com/?page_id=413#YRA">PAMI Young R
 
 ## News
 
+- **[Sep. 2025]** We released ​Robix, a unified robot brain that integrates reasoning, planning, and natural interaction, demonstrating superior performance over GPT-4o and Gemini-2.5-pro.
 - **[May 2025]** Our paper about enhancing the decision-making ability of LLMs is accepted to ICML 2025.
 
 
