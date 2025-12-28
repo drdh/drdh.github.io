@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am a researcher at <a href="https://seed.bytedance.com/en/research">ByteDance Seed</a> in Beijing, where I work on embodied intelligence and multi-modal foundation models for robotics.
+I am currently a researcher at <a href="https://seed.bytedance.com/en/research">ByteDance Seed</a> in Beijing, where I work on embodied intelligence and multi-modal foundation models for robotics.
 
 I received my PhD from the [Institute for Interdisciplinary Information Sciences (IIIS)](https://iiis.tsinghua.edu.cn/) at Tsinghua University, under the supervision of [Prof. Chongjie Zhang](https://engineering.washu.edu/faculty/Chongjie-Zhang.html) and [Prof. Yi Wu](https://jxwuyi.weebly.com). This institute is led by Turing Award laureate [Prof. Andrew Yao](https://iiis.tsinghua.edu.cn/yao/).
 
