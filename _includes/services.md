@@ -3,6 +3,7 @@
 <h4 style="margin:0 10px 0;">Conference Reviewer</h4>
 
 <ul style="margin:0 0 5px;">
+  <li><strong>[2026 - present]</strong> <a href="https://aclanthology.org"><autocolor>Association for Computational Linguistics (ACL)</autocolor></a></li>
   <li><strong>[2022 - present]</strong> <a href="https://neurips.cc"><autocolor>Annual Conference on Neural Information Processing Systems (NeurIPS)</autocolor></a></li>
   <li><strong>[2022 - present]</strong> <a href="https://icml.cc"><autocolor>International Conference on Machine Learning (ICML)</autocolor></a></li>
   <li><strong>[2022 - present]</strong> <a href="https://iclr.cc"><autocolor>International Conference on Learning Representations (ICLR)</autocolor></a></li>

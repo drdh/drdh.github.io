@@ -1,0 +1,9 @@
+@misc{tian2026romarealtimeomnimultimodalassistant,
+      title={ROMA: Real-time Omni-Multimodal Assistant with Interactive Streaming Understanding}, 
+      author={Xueyun Tian and Wei Li and Bingbing Xu and Heng Dong and Yuanzhuo Wang and Huawei Shen},
+      year={2026},
+      eprint={2601.10323},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2601.10323}, 
+}

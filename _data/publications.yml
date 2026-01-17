@@ -15,6 +15,35 @@ main:
   #   video: ./assets/pubs/
   #   notes: Early Accept
   #   highlight: true/false
+  - title: "ROMA: Real-time Omni-Multimodal Assistant with Interactive Streaming Understanding"
+    authors: Xueyun Tian, Wei Li, Bingbing Xu, <strong>Heng Dong</strong>, Yuanzhuo Wang, Huawei Shen
+    conference_short: arXiv 2026
+    tldr: ROMA is a real-time omni-multimodal assistant that unifies reactive answering and proactive interaction (such as alerts and narration) in streaming audio-video environments by utilizing synchronized multimodal units and a decoupled speak head for precise timing control.
+    pdf: https://arxiv.org/pdf/2601.10323
+    # code: 
+    page: https://eureka-maggie.github.io/ROMA_show/
+    # poster: ./assets/pubs/
+    # slides: ./assets/pubs/
+    bibtex: ./assets/pubs/2026-OmniROMA/cite.txt
+    image: ./assets/pubs/2026-OmniROMA/picture.png
+    # video: ./assets/pubs/
+    # notes: Early Accept
+    highlight: false
+
+  - title: "Learning from Mistakes: Negative Reasoning Samples Enhance Out-of-Domain Generalization"
+    authors: Xueyun Tian*, Minghua Ma*, Bingbing Xu, Nuoyan Lyu, Wei Li, <strong>Heng Dong</strong>, Zheng Chu, Yuanzhuo Wang, Huawei Shen
+    conference_short: arXiv 2026
+    tldr: This paper reveals that fine-tuning on negative reasoning trajectories (incorrect answers) surprisingly boosts out-of-domain generalization by exposing models to diverse error patterns, and introduces GLOW, an adaptive loss-weighting strategy, to effectively leverage these typically discarded samples for robust reasoning improvements.
+    pdf: https://arxiv.org/pdf/2601.04992
+    code: https://github.com/Eureka-Maggie/GLOW
+    # page: 
+    # poster: ./assets/pubs/
+    # slides: ./assets/pubs/
+    bibtex: ./assets/pubs/2026-NegativeCoT/cite.txt
+    image: ./assets/pubs/2026-NegativeCoT/picture.png
+    # video: ./assets/pubs/
+    # notes: Early Accept
+    highlight: false
 
   - title: "Robix: A Unified Model for Robot Interaction, Reasoning and Planning"
     authors: Huang Fang*, Mengxi Zhang*, <strong>Heng Dong*</strong>,  Wei Li*, Zixuan Wang, Qifeng Zhang, Xueyun Tian, Yucheng Hu, Hang Li
@@ -26,7 +55,7 @@ main:
     # poster: ./assets/pubs/
     # slides: ./assets/pubs/
     bibtex: ./assets/pubs/2025-Robix/cite.txt
-    image: ./assets/pubs/2025-Robix/picture.png
+    # image: ./assets/pubs/2025-Robix/picture.png
     video: ./assets/pubs/2025-Robix/video.mp4
     # notes: Early Accept
     highlight: true

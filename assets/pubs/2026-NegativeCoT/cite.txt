@@ -1,0 +1,9 @@
+@misc{tian2026learningmistakesnegativereasoning,
+      title={Learning from Mistakes: Negative Reasoning Samples Enhance Out-of-Domain Generalization}, 
+      author={Xueyun Tian and Minghua Ma and Bingbing Xu and Nuoyan Lyu and Wei Li and Heng Dong and Zheng Chu and Yuanzhuo Wang and Huawei Shen},
+      year={2026},
+      eprint={2601.04992},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2601.04992}, 
+}
