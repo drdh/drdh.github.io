@@ -15,6 +15,22 @@ main:
   #   video: ./assets/pubs/
   #   notes: Early Accept
   #   highlight: true/false
+
+  - title: "Hydra-Nav: Object Navigation via Adaptive Dual-Process Reasoning"
+    authors: Zixuan Wang, Huang Fang, Shaoan Wang, Yuanfei Luo, <strong>Heng Dong</strong>, Wei Li, Yiming Gan
+    conference_short: arXiv 2026
+    tldr: Hydra-Nav is a VLM-based navigation agent that achieves state-of-the-art performance by adaptively switching between a "slow" reasoning mode for high-level planning and a "fast" reactive mode for efficient execution.
+    pdf: https://arxiv.org/pdf/2602.09972
+    # code: 
+    page: https://zixuan-wang99.github.io/Hydra-Nav/
+    # poster: ./assets/pubs/
+    # slides: ./assets/pubs/
+    bibtex: ./assets/pubs/2026-Hydra-Nav/cite.txt
+    # image: ./assets/pubs/
+    video: ./assets/pubs/2026-Hydra-Nav/video.mp4
+    # notes: Early Accept
+    highlight: false
+    
   - title: "ROMA: Real-time Omni-Multimodal Assistant with Interactive Streaming Understanding"
     authors: Xueyun Tian, Wei Li, Bingbing Xu, <strong>Heng Dong</strong>, Yuanzhuo Wang, Huawei Shen
     conference_short: arXiv 2026
@@ -91,7 +107,7 @@ main:
       Yu Wang,
       <a href="https://teamcore.seas.harvard.edu/tambe/">Milind Tambe</a>
       <a href="https://tonghanwang.github.io">Tonghan Wang</a>
-    conference_short: arXiv 2025
+    conference_short: ICLR 2026
     tldr: We train LLMs to generate better agent explanations using RL with feedback from generative models, outperforming standard RLHF methods.
     pdf: https://arxiv.org/pdf/2502.12530
     # code: 

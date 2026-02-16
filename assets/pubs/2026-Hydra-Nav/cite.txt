@@ -1,0 +1,7 @@
+@article{wang2026hydranav,
+  title={Hydra-Nav: Object Navigation via Adaptive Dual-Process Reasoning},
+  author={Wang, Zixuan and Fang, Huang and Wang, Shaoan and Luo, Yuanfei and Dong, Heng and Li, Wei and Gan, Yiming},
+  year={2026},
+  journal={arXiv pre-print},
+  url={https://arxiv.org/abs/2602.09972}
+}
