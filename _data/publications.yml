@@ -18,7 +18,7 @@ main:
 
   - title: "Hydra-Nav: Object Navigation via Adaptive Dual-Process Reasoning"
     authors: Zixuan Wang, Huang Fang, Shaoan Wang, Yuanfei Luo, <strong>Heng Dong</strong>, Wei Li, Yiming Gan
-    conference_short: arXiv 2026
+    conference_short: ICML 2026
     tldr: Hydra-Nav is a VLM-based navigation agent that achieves state-of-the-art performance by adaptively switching between a slow reasoning mode for high-level planning and a fast reactive mode for efficient execution.
     pdf: https://arxiv.org/pdf/2602.09972
     # code: 
@@ -33,7 +33,7 @@ main:
 
   - title: "ROMA: Real-time Omni-Multimodal Assistant with Interactive Streaming Understanding"
     authors: Xueyun Tian, Wei Li, Bingbing Xu, <strong>Heng Dong</strong>, Yuanzhuo Wang, Huawei Shen
-    conference_short: arXiv 2026
+    conference_short: ACL 2026
     tldr: ROMA is a real-time omni-multimodal assistant that unifies reactive answering and proactive interaction (such as alerts and narration) in streaming audio-video environments by utilizing synchronized multimodal units and a decoupled speak head for precise timing control.
     pdf: https://arxiv.org/pdf/2601.10323
     # code: 
@@ -48,7 +48,7 @@ main:
 
   - title: "Learning from Mistakes: Negative Reasoning Samples Enhance Out-of-Domain Generalization"
     authors: Xueyun Tian*, Minghua Ma*, Bingbing Xu, Nuoyan Lyu, Wei Li, <strong>Heng Dong</strong>, Zheng Chu, Yuanzhuo Wang, Huawei Shen
-    conference_short: arXiv 2026
+    conference_short: ACL 2026
     tldr: This paper reveals that fine-tuning on negative reasoning trajectories (incorrect answers) surprisingly boosts out-of-domain generalization by exposing models to diverse error patterns, and introduces GLOW, an adaptive loss-weighting strategy, to effectively leverage these typically discarded samples for robust reasoning improvements.
     pdf: https://arxiv.org/pdf/2601.04992
     code: https://github.com/Eureka-Maggie/GLOW
