@@ -8,7 +8,7 @@ I am currently an AI researcher at <a href="https://seed.bytedance.com/en/resear
 
 I received my PhD from the [Institute for Interdisciplinary Information Sciences (IIIS)](https://iiis.tsinghua.edu.cn/) at Tsinghua University, under the supervision of [Prof. Chongjie Zhang](https://engineering.washu.edu/faculty/Chongjie-Zhang.html) and [Prof. Yi Wu](https://jxwuyi.weebly.com). This institute is led by Turing Award laureate [Prof. Andrew Yao](https://iiis.tsinghua.edu.cn/yao/).
 
-The goal of my research is to endow agents with superhuman intelligence, which I believe can be achieved through learning from interactions using modern models. My biography is [here](assets/files/bio.txt).
+The goal of my research is to endow agents with superhuman intelligence, which I believe can be achieved through learning from interactions using modern scalable models. My biography is [here](assets/files/bio.txt).
 
 <!-- I am a Ph.D. Student advised by [Prof. Chongjie Zhang](https://engineering.washu.edu/faculty/Chongjie-Zhang.html) and [Prof. Yi Wu](https://jxwuyi.weebly.com) at the [Institute for Interdisciplinary Information Sciences (IIIS)](https://iiis.tsinghua.edu.cn/), Tsinghua University, led by [Prof. Andrew Yao](https://iiis.tsinghua.edu.cn/yao/). -->
 
@@ -22,7 +22,7 @@ I've received the <a href="https://www.thecvf.com/?page_id=413#YRA">PAMI Young R
 ## Research Interests
 
 - **Learning from Interactions:** RL, Robot Control & Design, Multi-Agent
-- **Modern Models:** LLMs & VLMs, Diffusion Models, Flow Models
+- **Modern Scalable Models:** LLMs & VLMs, Diffusion Models, Flow Models
 
 ## Experience
 - **[Jun. 2025 - Present]** Researcher at ByteDance Seed
