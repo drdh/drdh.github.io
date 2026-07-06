@@ -1,0 +1,9 @@
+@misc{zhang2026pointvisiontextdoes,
+      title={The Point, the Vision and the Text: Does Point Cloud Boost Spatial Reasoning of Large Language Models? A Bias-Controlled Study}, 
+      author={Weichen Zhang and Ruiying Peng and Xin Zeng and Jianjie Fang and Ziyou Wang and Kaiyuan Li and Heng Dong and Wei Li and Chen Gao and Xin Wang and Xinlei Chen and Yong Li},
+      year={2026},
+      eprint={2504.04540},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2504.04540}, 
+}

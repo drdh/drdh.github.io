@@ -16,6 +16,35 @@ main:
   #   notes: Early Accept
   #   highlight: true/false
 
+  - title: "GST-Bench: Can VLMs Develop Global Spatial Awareness from Video?"
+    authors: Qifeng Zhang, Kaixiang Huang, <strong>Heng Dong</strong>, Huang Fang, Junting Chen, Junjie Zhu, Yonghang Chen, Zhiyu Zhang, Wei Li
+    conference_short: arXiv 2026
+    tldr: We introduce GST-Bench to evaluate global spatial awareness in videos, revealing that current VLMs significantly lag behind humans because they fail to construct globally consistent scene representations over long horizons.
+    pdf: https://qwerirwq.github.io/GST-Bench/static/pdfs/gst-bench.pdf
+    # code: 
+    page: https://qwerirwq.github.io/GST-Bench/
+    # poster: ./assets/pubs/
+    # slides: ./assets/pubs/
+    bibtex: ./assets/pubs/2026-GST-Bench/cite.txt
+    # image: ./assets/pubs/
+    video: ./assets/pubs/2026-GST-Bench/video.mp4
+    # notes: Early Accept
+    highlight: false
+
+  - title: "The Point, the Vision and the Text: Does Point Cloud Boost Spatial Reasoning of Large Language Models? A Bias-Controlled Study"
+    authors: Weichen Zhang, Ruiying Peng, Xin Zeng, Jianjie Fang, Ziyou Wang, kaiyuan Li, <strong>Heng Dong</strong>, Wei Li, Chen Gao, Xin Wang, Xinlei Chen, Yong Li
+    conference_short: arXiv 2026
+    tldr: This paper introduces ScanReQA to evaluate spatial reasoning, revealing that while visual and 3D modalities outperform text, current 3D LLMs still struggle with binary tasks and attention sinks.
+    pdf: https://arxiv.org/pdf/2504.04540
+    code: https://github.com/EmbodiedCity/ScanReQA.code
+    # poster: ./assets/pubs/
+    # slides: ./assets/pubs/
+    bibtex: ./assets/pubs/2026-ScanReQA/cite.txt
+    image: ./assets/pubs/2026-ScanReQA/picture.png
+    # video: ./assets/pubs/
+    # notes: Early Accept
+    highlight: false
+
   - title: "Hydra-Nav: Object Navigation via Adaptive Dual-Process Reasoning"
     authors: Zixuan Wang, Huang Fang, Shaoan Wang, Yuanfei Luo, <strong>Heng Dong</strong>, Wei Li, Yiming Gan
     conference_short: ICML 2026

@@ -1,0 +1,6 @@
+@article{zhang2024gstbench,
+  title={GST-Bench: Can VLMs Develop Global Spatial Awareness from Video?},
+  author={Zhang, Qifeng and Huang, Kaixiang and Dong, Heng and Fang, Huang and Chen, Junting and Zhu, Junjie and Chen, Yonghang and Zhang, Zhiyu and Li, Wei},
+  journal={arXiv preprint arXiv:2607},
+  year={2026}
+}
