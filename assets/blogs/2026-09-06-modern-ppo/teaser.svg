@@ -23,11 +23,8 @@
   <circle cx="830" cy="640" r="360" fill="url(#o4)"/>
   <circle cx="180" cy="650" r="300" fill="url(#o3)"/>
 
-  <text x="90" y="130" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="21" font-weight="500" letter-spacing="3" fill="#6a6a6a">TECH NOTES</text>
-  <text x="88" y="350" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="148" font-weight="600" fill="#0f0f0f">Modern PPO</text>
-  <text x="90" y="436" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="50" font-weight="400" fill="#3d3d3d">Multi-Turn LLM Agents</text>
-  <text x="90" y="492" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="36" font-weight="300" fill="#777777">An Implementation Guide</text>
-  <line x1="90" y1="550" x2="1110" y2="550" stroke="#d9d9d9" stroke-width="1.5"/>
-  <text x="90" y="594" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="19" font-weight="500" letter-spacing="2" fill="#9a9a9a">HENG DONG</text>
-  <text x="1110" y="594" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="19" font-weight="500" fill="#9a9a9a" text-anchor="end">2026</text>
+  <!-- Title only -->
+  <text x="88" y="330" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="148" font-weight="600" fill="#0f0f0f">Modern PPO</text>
+  <text x="90" y="416" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="50" font-weight="400" fill="#3d3d3d">Multi-Turn LLM Agents</text>
+  <text x="90" y="472" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="36" font-weight="300" fill="#777777">An Implementation Guide</text>
 </svg>
