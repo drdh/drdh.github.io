@@ -34,6 +34,25 @@
     <link rel="stylesheet" href="./assets/css/publications-no-dark-mode.css">
     {% endif %}
 
+    <style>
+      /* Section navigation bar (sticky, homepage only) */
+      html { scroll-behavior: smooth; }
+      section h2 { scroll-margin-top: 88px; }
+      .topnav { position: sticky; top: 0; z-index: 50; display: flex;
+        flex-wrap: wrap; gap: 1.6em; align-items: baseline;
+        background: #ffffff; border-bottom: 1px solid #e5e5e5;
+        padding: 0.7em 0; margin-bottom: 1.6em; font-size: 1.02em; }
+      .topnav a { text-decoration: none; color: var(--global-theme-color, #043361);
+        font-weight: 500; }
+      .topnav a:hover { text-decoration: underline; }
+      @media (max-width: 480px) { .topnav { gap: 1em; } }
+      {% if site.auto_dark_mode %}
+      @media (prefers-color-scheme: dark) {
+        .topnav { background: #20212b; border-bottom-color: #3a3b45; }
+      }
+      {% endif %}
+    </style>
+
   </head>
   <body>
     <div class="wrapper">
@@ -94,6 +113,13 @@
 
       </header>
       <section>
+
+      <nav class="topnav" aria-label="Section navigation">
+        <a href="#about-me">About</a>
+        <a href="#publications">Publications</a>
+        <a href="#blogs">Blog Posts</a>
+        <a href="#services">Services</a>
+      </nav>
 
       {{ content }}
 

@@ -68,6 +68,49 @@
 </ol>
 </div>
 
+<h2 id="blogs" style="margin: 48px 0px -15px;">Blog Posts</h2>
+
+<div class="publications">
+<ol class="bibliography">
+{% for link in site.data.publications.blogs %}
+
+<li>
+<div class="pub-row {% if link.highlight %}highlighted{% endif %}">
+  {% if link.image %}
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;width: 80%; height: auto; display: flex; justify-content: center; align-items: center;">
+    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width: 100%; height: auto; aspect-ratio: auto; object-fit: cover;">
+    {% if link.conference_short %}
+      <abbr class="badge">{{ link.conference_short }}</abbr>
+    {% endif %}
+  </div>
+  {% endif %}
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+      <div class="title"><a href="{{ link.blog_url }}">{{ link.title }}</a></div>
+      {% if link.authors %}
+      <div class="author">{{ link.authors }}</div>
+      {% endif %}
+      {% if link.tldr %}
+      <div class="periodical"><em>TL;DR</em> {{ link.tldr }}
+      </div>
+      {% endif %}
+    <div class="links">
+      {% if link.bibtex %}
+      <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
+      {% endif %}
+      {% if link.others %}
+      {{ link.others }}
+      {% endif %}
+    </div>
+  </div>
+</div>
+</li>
+<br>
+
+{% endfor %}
+
+</ol>
+</div>
+
 <style>
   .highlighted {
       background-color: #ffffe0;

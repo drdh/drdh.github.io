@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#002D72"/>
+      <stop offset="1" stop-color="#5B2D90"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1010" cy="110" r="250" fill="#ffb81c" opacity="0.22"/>
+  <circle cx="150" cy="560" r="200" fill="#3eb7f0" opacity="0.18"/>
+  <text x="88" y="330" font-family="Georgia, 'Times New Roman', serif" font-size="118" fill="#ffffff">Demo Blog Post</text>
+  <text x="90" y="424" font-family="Georgia, 'Times New Roman', serif" font-size="54" fill="#ffb81c">Heng Dong · 2026</text>
+</svg>

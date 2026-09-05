@@ -304,3 +304,25 @@ main:
   #   bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
   #   notes: Oral Presentation
   #   image: ./assets/img/teaser_example.png
+
+# ============ Blog Posts (separate section below Publications) ============
+# One post = one folder: assets/blogs/YYYY-MM-DD-<slug>/<slug>.md
+#   (front matter: layout: post + permalink: /blog/<slug>.html)
+#   plus optional teaser.svg and cite.txt in the same dated folder.
+# Keep this list newest first; the homepage renders it as-is, in the same
+# row style as papers. Title links to blog_url; `image` shows the teaser and
+# the conference_short badge.
+
+blogs:
+  - title: "Modern PPO for Multi-Turn LLM Agents: An Implementation Guide"
+    conference_short: Blog 2026
+    tldr: A practical guide for implementing PPO on multi-turn LLM-agent trajectories — reward placement, response masks, GAE bootstrapping at model decision points, loss aggregation, and correction for asynchronous rollouts.
+    blog_url: /blog/modern-ppo.html
+    bibtex: ./assets/blogs/2026-09-06-modern-ppo/cite.txt
+    image: ./assets/blogs/2026-09-06-modern-ppo/teaser.svg
+
+  # - title: "Hello World: Rendering Every Markdown Element on This Blog"
+  #   conference_short: Blog 2026
+  #   tldr: A demo post that exercises headings, lists, tables, code blocks, quotes, images, and footnotes end to end, to confirm the blog pipeline renders standard markdown correctly.
+  #   blog_url: /blog/demo-post.html
+  #   image: ./assets/blogs/2026-09-05-demo-post/teaser.svg

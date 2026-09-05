@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    {% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+    {% endif %}
+
+    <link rel="icon" media="(prefers-color-scheme:dark)" href="{{ site.favicon_dark | remove_first: './' | relative_url }}" type="image/png" />
+    <link rel="icon" media="(prefers-color-scheme:light)" href="{{ site.favicon | remove_first: './' | relative_url }}" type="image/png" />
+    <script src="{{ "/assets/js/favicon-switcher.js" | relative_url }}" type="application/javascript"></script>
+
+    {% if site.font == "Sans Serif" %}
+    <link rel="stylesheet" href="{{ "/assets/css/font_sans_serif.css" | relative_url }}">
+    {% else %}
+    <link rel="stylesheet" href="{{ "/assets/css/font.css" | relative_url }}">
+    {% endif %}
+    {% if site.auto_dark_mode %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/publications.css" | relative_url }}">
+    {% else %}
+    <link rel="stylesheet" href="{{ "/assets/css/style-no-dark-mode.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/publications-no-dark-mode.css" | relative_url }}">
+    {% endif %}
+
+    <style>
+      /* Two-column layout: article + right sticky TOC (TOC hidden on narrow screens) */
+      .post-wrap { max-width: 960px; margin: 0 auto; display: flex;
+        justify-content: center; align-items: flex-start; gap: 32px;
+        padding-top: 3.5em; padding-bottom: 60px; }
+      .post-page { max-width: 720px; flex: 1 1 auto; min-width: 0; }
+      .post-title { margin-bottom: 0; }
+      .post-meta { color: #828282; margin-top: 8px; font-size: 0.95em; }
+      .post-back { margin-top: 3em; font-size: 0.95em; }
+      .post-page pre { max-width: 100%; }
+      .post-page table { display: block; overflow-x: auto; }
+      .post-page h2, .post-page h3 { scroll-margin-top: 24px; }
+
+      .post-toc { flex: 0 0 200px; width: 200px; position: sticky; top: 3.5em;
+        max-height: calc(100vh - 7em); overflow-y: auto; font-size: 0.82rem;
+        border-left: 1px solid #e5e5e5; padding: 0.2em 0 0.5em 1.1em; }
+      .post-toc .toc-title { font-size: 0.72rem; text-transform: uppercase;
+        letter-spacing: 0.08em; color: #828282; margin: 0 0 0.6em; }
+      .post-toc ul { list-style: none; margin: 0; padding: 0; }
+      .post-toc li { margin: 0 0 0.45em; line-height: 1.35; }
+      .post-toc a { color: #828282; text-decoration: none; display: block;
+        border-left: 2px solid transparent; margin-left: -1.1em; padding-left: 1.1em; }
+      .post-toc a:hover { color: #39c; }
+      .post-toc .toc-h3 { margin-left: 1em; font-size: 0.92em; }
+      .post-toc .toc-h3 a { border-left: none; }
+      .post-toc a.active { color: var(--global-theme-color, #043361); font-weight: 600;
+        border-left-color: var(--global-theme-color, #043361); }
+      @media (max-width: 1100px) {
+        .post-toc { display: none; }
+      }
+    </style>
+
+    <!-- MathJax: LaTeX math in blog posts. MathJax v3 disables single-$ inline
+         math by default (only \(...\)), so re-enable it: $...$ inline,
+         $$...$$ display. Must be set before tex-chtml.js loads. -->
+    <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']]
+        }
+      };
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-chtml.js" id="MathJax-script" async></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="post-wrap">
+        <article class="post-page">
+          <h1 class="post-title">{{ page.title }}</h1>
+          {% if page.date %}
+          <p class="post-meta">{{ page.date | date: "%B %-d, %Y" }}</p>
+          <hr>
+          {% endif %}
+          {{ content }}
+          <p class="post-back"><a href="{{ "/" | relative_url }}">&larr; Back to home</a></p>
+        </article>
+        <nav class="post-toc" id="post-toc" aria-label="Table of contents"></nav>
+      </div>
+    </div>
+
+    <script>
+      // Client-side table of contents: built from article h2/h3 (kramdown gives
+      // every heading an id). Right sticky column; hidden entirely on narrow
+      // screens via CSS. Disappears too when the article has < 2 headings.
+      (function () {
+        var article = document.querySelector('.post-page');
+        var toc = document.getElementById('post-toc');
+        if (!article || !toc) return;
+        var headings = article.querySelectorAll('h2, h3');
+        var pairs = [];
+        for (var i = 0; i < headings.length; i++) {
+          var h = headings[i];
+          if (!h.id) continue;
+          pairs.push({ el: h, tag: h.tagName });
+        }
+        if (pairs.length < 2) { toc.remove(); return; }
+
+        var title = document.createElement('div');
+        title.className = 'toc-title';
+        title.textContent = 'Contents';
+        toc.appendChild(title);
+
+        var list = document.createElement('ul');
+        pairs.forEach(function (p) {
+          var li = document.createElement('li');
+          li.className = 'toc-' + p.tag.toLowerCase();
+          var a = document.createElement('a');
+          a.href = '#' + p.el.id;
+          a.textContent = p.el.textContent;
+          li.appendChild(a);
+          list.appendChild(li);
+          p.a = a;
+        });
+        toc.appendChild(list);
+
+        // Scrollspy: highlight the section currently near the top of the viewport
+        function onScroll() {
+          var current = pairs[0].el;
+          for (var i = 0; i < pairs.length; i++) {
+            if (pairs[i].el.getBoundingClientRect().top <= 120) current = pairs[i].el;
+          }
+          for (var j = 0; j < pairs.length; j++) {
+            pairs[j].a.classList.toggle('active', pairs[j].el === current);
+          }
+        }
+        window.addEventListener('scroll', onScroll, { passive: true });
+        onScroll();
+      })();
+    </script>
+
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    {% if site.google_analytics %}
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', '{{ site.google_analytics }}', 'auto');
+      ga('send', 'pageview');
+    </script>
+    {% endif %}
+  </body>
+</html>

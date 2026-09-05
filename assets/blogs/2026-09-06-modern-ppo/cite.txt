@@ -1,0 +1,8 @@
+@misc{dong2026modernppo,
+  title={Modern PPO for Multi-Turn LLM Agents: An Implementation Guide},
+  author={Dong, Heng},
+  year={2026},
+  month={9},
+  howpublished={\url{https://drdh.cc/blog/modern-ppo.html}},
+  note={Personal blog}
+}
