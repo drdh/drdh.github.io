@@ -9,3 +9,10 @@ body {
   font-weight:400;
   margin:0
 }
+
+/* Inline CJK (e.g. Chinese name) — serif stack to match Crimson Pro; CJK
+   square glyphs read larger than Latin, so nudge the size down. */
+.chinese-name {
+  font-family: "Noto Serif SC", "Songti SC", STSong, SimSun, serif;
+  font-size: 0.94em;
+}

@@ -4,11 +4,11 @@ layout: homepage
 
 ## About Me
 
-I am currently an AI researcher at <a href="https://seed.bytedance.com/en/research">ByteDance Seed</a> in Beijing, where I work on embodied intelligence and multi-modal foundation models for robotics.
+I am Heng Dong (<span class="chinese-name">董恒</span>), currently an AI researcher at <a href="https://seed.bytedance.com/en/research">ByteDance Seed</a> in Beijing, where I work on embodied intelligence and multi-modal foundation models for robotics.
 
-I received my PhD from the [Institute for Interdisciplinary Information Sciences (IIIS)](https://iiis.tsinghua.edu.cn/) at Tsinghua University, under the supervision of [Prof. Chongjie Zhang](https://engineering.washu.edu/faculty/Chongjie-Zhang.html) and [Prof. Yi Wu](https://jxwuyi.weebly.com). This institute is led by Turing Award laureate [Prof. Andrew Yao](https://iiis.tsinghua.edu.cn/yao/).
+I received my PhD from the [Institute for Interdisciplinary Information Sciences (IIIS)](https://iiis.tsinghua.edu.cn/) at Tsinghua University, under the supervision of [Prof. Chongjie Zhang](https://engineering.washu.edu/faculty/Chongjie-Zhang.html) and [Prof. Yi Wu](https://jxwuyi.weebly.com). This institute is led by Turing Award laureate [Prof. Andrew Yao](https://en.wikipedia.org/wiki/Andrew_Yao).
 
-The goal of my research is to endow agents with superhuman intelligence, which I believe can be achieved through learning from interactions using modern scalable models. My biography is [here](assets/files/bio.txt).
+The goal of my research is to endow agents with superhuman intelligence, which I believe can be achieved through learning from interactions using modern scalable models. My biography is available [here](assets/files/bio.txt).
 
 <!-- I am a Ph.D. Student advised by [Prof. Chongjie Zhang](https://engineering.washu.edu/faculty/Chongjie-Zhang.html) and [Prof. Yi Wu](https://jxwuyi.weebly.com) at the [Institute for Interdisciplinary Information Sciences (IIIS)](https://iiis.tsinghua.edu.cn/), Tsinghua University, led by [Prof. Andrew Yao](https://iiis.tsinghua.edu.cn/yao/). -->
 
@@ -21,11 +21,11 @@ I've received the <a href="https://www.thecvf.com/?page_id=413#YRA">PAMI Young R
 
 ## Research Interests
 
-- **Learning from Interactions:** RL, Robot Control & Design, Multi-Agent
-- **Modern Scalable Models:** LLMs & VLMs, Diffusion Models, Flow Models
+- **Learning from Interactions:** RL, Robot Control & Design, Multi-Agent — learning from one's own experience (Silver & Sutton 2025, [Welcome to the Era of Experience](https://storage.googleapis.com/deepmind-media/Era-of-Experience%20/The%20Era%20of%20Experience%20Paper.pdf))
+- **Modern Scalable Models:** LLMs & VLMs, Diffusion Models, Flow Models — general methods and models that leverage computation (Sutton 2019, [The Bitter Lesson](http://incompleteideas.net/IncIdeas/BitterLesson.html))
 
 ## Experience
-- **[Jun. 2025 - Present]** Researcher at ByteDance Seed
+- **[Jun. 2025 - Present]** AI Researcher at [ByteDance Seed](https://seed.bytedance.com/en/research)
 - **[Sep. 2020 - Jun. 2025]** Ph.D. in Artificial Intelligence, [Tsinghua University](https://www.tsinghua.edu.cn/en/)
 - **[Sep. 2016 - Jun. 2020]** B.S. in Computer Science, [University of Science and Technology of China](https://en.ustc.edu.cn/)
 
